@@ -9703,3 +9703,38 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+/* Visit Button Style */
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white !important;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.project-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Card Hover Animation */
+.blog-entry:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Icon Size */
+.project-icon {
+  font-size: 18px;
+}
+
